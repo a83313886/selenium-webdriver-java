@@ -1,5 +1,5 @@
 [![Build Status](https://github.com/bonigarcia/selenium-webdriver-java/workflows/build/badge.svg)](https://github.com/bonigarcia/selenium-webdriver-java/actions)
-[![badge-jdk](https://img.shields.io/badge/jdk-8-green.svg)](https://www.oracle.com/java/technologies/javase-downloads.html)
+[![badge-jdk](https://img.shields.io/badge/jdk-11-green.svg)](https://www.oracle.com/java/technologies/downloads/)
 [![License badge](https://img.shields.io/badge/license-Apache2-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Support badge](https://img.shields.io/badge/stackoverflow-selenium_webdriver-green.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/selenium-webdriver)
 [![Twitter Follow](https://img.shields.io/twitter/follow/boni_gg.svg?style=social)](https://twitter.com/boni_gg)
@@ -21,6 +21,7 @@ This repo also contains a [Practice site], i.e., a representative set of sample 
 This repo uses Git tags to track the evolution of the codebase in time. These tags are the following:
 
 * `1.0.0`: The examples of the first version of the book (released in April 2022) are based on this tag.
+* `1.1.0`: Bump to Java 11, due to the incompatibility of TestNG 7.6.0 (released on May 18, 2022) with Java 8.
 
 ## About
 
